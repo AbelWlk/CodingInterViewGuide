@@ -53,7 +53,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Stack_getMin00.dir/DependInfo.cmake"
-  "CMakeFiles/Stack_getMin01.dir/DependInfo.cmake"
-  "CMakeFiles/QueueConsistOf2Stacks.dir/DependInfo.cmake"
+  "CMakeFiles/01.Stack_getMin00.dir/DependInfo.cmake"
+  "CMakeFiles/01.Stack_getMin01.dir/DependInfo.cmake"
+  "CMakeFiles/02.QueueConsistOf2Stacks.dir/DependInfo.cmake"
+  "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/DependInfo.cmake"
   )

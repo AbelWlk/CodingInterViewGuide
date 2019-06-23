@@ -9,6 +9,7 @@ struct SNode {
 };
 typedef struct SNode *Stack;
 
+//1:true  0:false
 Stack Init();
 
 int IsEmpty(Stack s);
@@ -16,3 +17,5 @@ int IsEmpty(Stack s);
 int Push(Stack s, int data);
 
 int Pop(Stack s);
+
+void foreachStack(Stack s);

@@ -37,3 +37,16 @@ int Pop(Stack s) {
         return data;
     }
 }
+
+void foreachStack(Stack s) {
+    if (IsEmpty(s) == 1) {
+        printf("Stack Is Empty!");
+        return;
+    }
+    PtrNode pCurrent = s->Next;
+    while (pCurrent) {
+        printf("%d ", pCurrent->Data);
+        pCurrent = pCurrent->Next;
+    }
+    printf("\n");
+}

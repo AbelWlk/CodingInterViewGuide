@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = F:\Git\Clion\CodingInterViewGuide\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,43 +110,56 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Stack_getMin00
+# Target rules for targets named 01.Stack_getMin00
 
 # Build rule for target.
-Stack_getMin00: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Stack_getMin00
-.PHONY : Stack_getMin00
+01.Stack_getMin00: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 01.Stack_getMin00
+.PHONY : 01.Stack_getMin00
 
 # fast build rule for target.
-Stack_getMin00/fast:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make CMakeFiles/Stack_getMin00.dir/build
-.PHONY : Stack_getMin00/fast
+01.Stack_getMin00/fast:
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/build
+.PHONY : 01.Stack_getMin00/fast
 
 #=============================================================================
-# Target rules for targets named Stack_getMin01
+# Target rules for targets named 01.Stack_getMin01
 
 # Build rule for target.
-Stack_getMin01: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 Stack_getMin01
-.PHONY : Stack_getMin01
+01.Stack_getMin01: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 01.Stack_getMin01
+.PHONY : 01.Stack_getMin01
 
 # fast build rule for target.
-Stack_getMin01/fast:
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make CMakeFiles/Stack_getMin01.dir/build
-.PHONY : Stack_getMin01/fast
+01.Stack_getMin01/fast:
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/build
+.PHONY : 01.Stack_getMin01/fast
 
 #=============================================================================
-# Target rules for targets named QueueConsistOf2Stacks
+# Target rules for targets named 02.QueueConsistOf2Stacks
 
 # Build rule for target.
-QueueConsistOf2Stacks: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 QueueConsistOf2Stacks
-.PHONY : QueueConsistOf2Stacks
+02.QueueConsistOf2Stacks: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 02.QueueConsistOf2Stacks
+.PHONY : 02.QueueConsistOf2Stacks
 
 # fast build rule for target.
-QueueConsistOf2Stacks/fast:
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make CMakeFiles/QueueConsistOf2Stacks.dir/build
-.PHONY : QueueConsistOf2Stacks/fast
+02.QueueConsistOf2Stacks/fast:
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/build
+.PHONY : 02.QueueConsistOf2Stacks/fast
+
+#=============================================================================
+# Target rules for targets named 03.ReverseStackOnlyByRecurion
+
+# Build rule for target.
+03.ReverseStackOnlyByRecurion: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 03.ReverseStackOnlyByRecurion
+.PHONY : 03.ReverseStackOnlyByRecurion
+
+# fast build rule for target.
+03.ReverseStackOnlyByRecurion/fast:
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/build
+.PHONY : 03.ReverseStackOnlyByRecurion/fast
 
 Chapter01_Stack&Queue/01.Stack_getMin00.obj: Chapter01_Stack&Queue/01.Stack_getMin00.c.obj
 
@@ -154,7 +167,7 @@ Chapter01_Stack&Queue/01.Stack_getMin00.obj: Chapter01_Stack&Queue/01.Stack_getM
 
 # target to build an object file
 Chapter01_Stack&Queue/01.Stack_getMin00.c.obj:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make "CMakeFiles/Stack_getMin00.dir/Chapter01_Stack&Queue/01.Stack_getMin00.c.obj"
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make "CMakeFiles/01.Stack_getMin00.dir/Chapter01_Stack&Queue/01.Stack_getMin00.c.obj"
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin00.c.obj
 
 Chapter01_Stack&Queue/01.Stack_getMin00.i: Chapter01_Stack&Queue/01.Stack_getMin00.c.i
@@ -163,7 +176,7 @@ Chapter01_Stack&Queue/01.Stack_getMin00.i: Chapter01_Stack&Queue/01.Stack_getMin
 
 # target to preprocess a source file
 Chapter01_Stack&Queue/01.Stack_getMin00.c.i:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make "CMakeFiles/Stack_getMin00.dir/Chapter01_Stack&Queue/01.Stack_getMin00.c.i"
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make "CMakeFiles/01.Stack_getMin00.dir/Chapter01_Stack&Queue/01.Stack_getMin00.c.i"
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin00.c.i
 
 Chapter01_Stack&Queue/01.Stack_getMin00.s: Chapter01_Stack&Queue/01.Stack_getMin00.c.s
@@ -172,7 +185,7 @@ Chapter01_Stack&Queue/01.Stack_getMin00.s: Chapter01_Stack&Queue/01.Stack_getMin
 
 # target to generate assembly for a file
 Chapter01_Stack&Queue/01.Stack_getMin00.c.s:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make "CMakeFiles/Stack_getMin00.dir/Chapter01_Stack&Queue/01.Stack_getMin00.c.s"
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make "CMakeFiles/01.Stack_getMin00.dir/Chapter01_Stack&Queue/01.Stack_getMin00.c.s"
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin00.c.s
 
 Chapter01_Stack&Queue/01.Stack_getMin01.obj: Chapter01_Stack&Queue/01.Stack_getMin01.c.obj
@@ -181,7 +194,7 @@ Chapter01_Stack&Queue/01.Stack_getMin01.obj: Chapter01_Stack&Queue/01.Stack_getM
 
 # target to build an object file
 Chapter01_Stack&Queue/01.Stack_getMin01.c.obj:
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make "CMakeFiles/Stack_getMin01.dir/Chapter01_Stack&Queue/01.Stack_getMin01.c.obj"
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make "CMakeFiles/01.Stack_getMin01.dir/Chapter01_Stack&Queue/01.Stack_getMin01.c.obj"
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin01.c.obj
 
 Chapter01_Stack&Queue/01.Stack_getMin01.i: Chapter01_Stack&Queue/01.Stack_getMin01.c.i
@@ -190,7 +203,7 @@ Chapter01_Stack&Queue/01.Stack_getMin01.i: Chapter01_Stack&Queue/01.Stack_getMin
 
 # target to preprocess a source file
 Chapter01_Stack&Queue/01.Stack_getMin01.c.i:
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make "CMakeFiles/Stack_getMin01.dir/Chapter01_Stack&Queue/01.Stack_getMin01.c.i"
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make "CMakeFiles/01.Stack_getMin01.dir/Chapter01_Stack&Queue/01.Stack_getMin01.c.i"
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin01.c.i
 
 Chapter01_Stack&Queue/01.Stack_getMin01.s: Chapter01_Stack&Queue/01.Stack_getMin01.c.s
@@ -199,7 +212,7 @@ Chapter01_Stack&Queue/01.Stack_getMin01.s: Chapter01_Stack&Queue/01.Stack_getMin
 
 # target to generate assembly for a file
 Chapter01_Stack&Queue/01.Stack_getMin01.c.s:
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make "CMakeFiles/Stack_getMin01.dir/Chapter01_Stack&Queue/01.Stack_getMin01.c.s"
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make "CMakeFiles/01.Stack_getMin01.dir/Chapter01_Stack&Queue/01.Stack_getMin01.c.s"
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin01.c.s
 
 Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.obj: Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.obj
@@ -208,7 +221,7 @@ Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.obj: Chapter01_Stack&Queue/02.Que
 
 # target to build an object file
 Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.obj:
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make "CMakeFiles/QueueConsistOf2Stacks.dir/Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.obj"
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make "CMakeFiles/02.QueueConsistOf2Stacks.dir/Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.obj"
 .PHONY : Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.obj
 
 Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.i: Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.i
@@ -217,7 +230,7 @@ Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.i: Chapter01_Stack&Queue/02.Queue
 
 # target to preprocess a source file
 Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.i:
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make "CMakeFiles/QueueConsistOf2Stacks.dir/Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.i"
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make "CMakeFiles/02.QueueConsistOf2Stacks.dir/Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.i"
 .PHONY : Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.i
 
 Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.s: Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.s
@@ -226,8 +239,35 @@ Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.s: Chapter01_Stack&Queue/02.Queue
 
 # target to generate assembly for a file
 Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.s:
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make "CMakeFiles/QueueConsistOf2Stacks.dir/Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.s"
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make "CMakeFiles/02.QueueConsistOf2Stacks.dir/Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.s"
 .PHONY : Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c.s
+
+Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.obj: Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.obj
+
+.PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.obj
+
+# target to build an object file
+Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.obj:
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.obj"
+.PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.obj
+
+Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.i: Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.i
+
+.PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.i
+
+# target to preprocess a source file
+Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.i:
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.i"
+.PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.i
+
+Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.s: Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s
+
+.PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.s
+
+# target to generate assembly for a file
+Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s:
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s"
+.PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s
 
 Stack/Stack.obj: Stack/Stack.c.obj
 
@@ -235,9 +275,10 @@ Stack/Stack.obj: Stack/Stack.c.obj
 
 # target to build an object file
 Stack/Stack.c.obj:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make CMakeFiles/Stack_getMin00.dir/Stack/Stack.c.obj
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make CMakeFiles/Stack_getMin01.dir/Stack/Stack.c.obj
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make CMakeFiles/QueueConsistOf2Stacks.dir/Stack/Stack.c.obj
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/Stack/Stack.c.obj
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/Stack/Stack.c.obj
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/Stack/Stack.c.obj
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Stack/Stack.c.obj
 .PHONY : Stack/Stack.c.obj
 
 Stack/Stack.i: Stack/Stack.c.i
@@ -246,9 +287,10 @@ Stack/Stack.i: Stack/Stack.c.i
 
 # target to preprocess a source file
 Stack/Stack.c.i:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make CMakeFiles/Stack_getMin00.dir/Stack/Stack.c.i
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make CMakeFiles/Stack_getMin01.dir/Stack/Stack.c.i
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make CMakeFiles/QueueConsistOf2Stacks.dir/Stack/Stack.c.i
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/Stack/Stack.c.i
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/Stack/Stack.c.i
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/Stack/Stack.c.i
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Stack/Stack.c.i
 .PHONY : Stack/Stack.c.i
 
 Stack/Stack.s: Stack/Stack.c.s
@@ -257,9 +299,10 @@ Stack/Stack.s: Stack/Stack.c.s
 
 # target to generate assembly for a file
 Stack/Stack.c.s:
-	$(MAKE) -f CMakeFiles\Stack_getMin00.dir\build.make CMakeFiles/Stack_getMin00.dir/Stack/Stack.c.s
-	$(MAKE) -f CMakeFiles\Stack_getMin01.dir\build.make CMakeFiles/Stack_getMin01.dir/Stack/Stack.c.s
-	$(MAKE) -f CMakeFiles\QueueConsistOf2Stacks.dir\build.make CMakeFiles/QueueConsistOf2Stacks.dir/Stack/Stack.c.s
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/Stack/Stack.c.s
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/Stack/Stack.c.s
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/Stack/Stack.c.s
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Stack/Stack.c.s
 .PHONY : Stack/Stack.c.s
 
 # Help Target
@@ -268,11 +311,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... edit_cache
-	@echo ... Stack_getMin00
-	@echo ... Stack_getMin01
 	@echo ... rebuild_cache
-	@echo ... QueueConsistOf2Stacks
+	@echo ... 01.Stack_getMin00
+	@echo ... 01.Stack_getMin01
+	@echo ... 02.QueueConsistOf2Stacks
+	@echo ... 03.ReverseStackOnlyByRecurion
+	@echo ... edit_cache
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.obj
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.i
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.s
@@ -282,6 +326,9 @@ help:
 	@echo ... Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.obj
 	@echo ... Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.i
 	@echo ... Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.s
+	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.obj
+	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.i
+	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.s
 	@echo ... Stack/Stack.obj
 	@echo ... Stack/Stack.i
 	@echo ... Stack/Stack.s

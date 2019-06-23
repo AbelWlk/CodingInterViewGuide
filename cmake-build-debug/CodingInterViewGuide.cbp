@@ -17,104 +17,6 @@
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Stack_getMin00">
-				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Stack_getMin00.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack_getMin00"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Stack_getMin00/fast">
-				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Stack_getMin00.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack_getMin00/fast"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Stack_getMin01">
-				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Stack_getMin01.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack_getMin01"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Stack_getMin01/fast">
-				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Stack_getMin01.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 Stack_getMin01/fast"/>
-					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
 				<Option type="4"/>
@@ -125,8 +27,8 @@
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QueueConsistOf2Stacks">
-				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/QueueConsistOf2Stacks.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="01.Stack_getMin00">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/01.Stack_getMin00.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -141,14 +43,14 @@
 					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 QueueConsistOf2Stacks"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 01.Stack_getMin00"/>
 					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="QueueConsistOf2Stacks/fast">
-				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/QueueConsistOf2Stacks.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="01.Stack_getMin00/fast">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/01.Stack_getMin00.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -163,7 +65,149 @@
 					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 QueueConsistOf2Stacks/fast"/>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 01.Stack_getMin00/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01.Stack_getMin01">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/01.Stack_getMin01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 01.Stack_getMin01"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="01.Stack_getMin01/fast">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/01.Stack_getMin01.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 01.Stack_getMin01/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02.QueueConsistOf2Stacks">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/02.QueueConsistOf2Stacks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 02.QueueConsistOf2Stacks"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="02.QueueConsistOf2Stacks/fast">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/02.QueueConsistOf2Stacks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 02.QueueConsistOf2Stacks/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03.ReverseStackOnlyByRecurion">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/03.ReverseStackOnlyByRecurion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 03.ReverseStackOnlyByRecurion"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="03.ReverseStackOnlyByRecurion/fast">
+				<Option output="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/03.ReverseStackOnlyByRecurion.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/Git/Clion/CodingInterViewGuide"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 03.ReverseStackOnlyByRecurion/fast"/>
+					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/Git/Clion/CodingInterViewGuide/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
 					<CompileFile command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Program Files/mingw64/bin/mingw32-make.exe -f &quot;F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -171,23 +215,28 @@
 			</Target>
 		</Build>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&amp;Queue/01.Stack_getMin00.c">
-			<Option target="Stack_getMin00"/>
+			<Option target="01.Stack_getMin00"/>
 		</Unit>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&amp;Queue/01.Stack_getMin01.c">
-			<Option target="Stack_getMin01"/>
+			<Option target="01.Stack_getMin01"/>
 		</Unit>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&amp;Queue/02.QueueConsistOf2Stacks.c">
-			<Option target="QueueConsistOf2Stacks"/>
+			<Option target="02.QueueConsistOf2Stacks"/>
+		</Unit>
+		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&amp;Queue/03.ReverseStackOnlyByRecurion.c">
+			<Option target="03.ReverseStackOnlyByRecurion"/>
 		</Unit>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Stack/Stack.c">
-			<Option target="Stack_getMin00"/>
-			<Option target="Stack_getMin01"/>
-			<Option target="QueueConsistOf2Stacks"/>
+			<Option target="01.Stack_getMin00"/>
+			<Option target="01.Stack_getMin01"/>
+			<Option target="02.QueueConsistOf2Stacks"/>
+			<Option target="03.ReverseStackOnlyByRecurion"/>
 		</Unit>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Stack/Stack.h">
-			<Option target="Stack_getMin00"/>
-			<Option target="Stack_getMin01"/>
-			<Option target="QueueConsistOf2Stacks"/>
+			<Option target="01.Stack_getMin00"/>
+			<Option target="01.Stack_getMin01"/>
+			<Option target="02.QueueConsistOf2Stacks"/>
+			<Option target="03.ReverseStackOnlyByRecurion"/>
 		</Unit>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
