@@ -7,7 +7,6 @@
     可使用现成的栈结构
 */
 
-
 /*--------------------题目要求的特殊栈实现------------------------*/
 //初始化
 void SpecialStackInit(Stack *stackData, Stack *stackMin) {
