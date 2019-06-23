@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//Stack/Stack.h
+stdio.h
+-
+stdlib.h
+-
+
+F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&Queue/01.Stack_getMin00.c
+stdio.h
+-
+stdlib.h
+-
+Stack/Stack.h
+F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&Queue/Stack/Stack.h
+
