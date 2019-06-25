@@ -269,41 +269,41 @@ Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s:
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s"
 .PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s
 
-Stack/Stack.obj: Stack/Stack.c.obj
+datastructure/Stack.obj: datastructure/Stack.c.obj
 
-.PHONY : Stack/Stack.obj
+.PHONY : datastructure/Stack.obj
 
 # target to build an object file
-Stack/Stack.c.obj:
-	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/Stack/Stack.c.obj
-	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/Stack/Stack.c.obj
-	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/Stack/Stack.c.obj
-	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Stack/Stack.c.obj
-.PHONY : Stack/Stack.c.obj
+datastructure/Stack.c.obj:
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/datastructure/Stack.c.obj
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/datastructure/Stack.c.obj
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/datastructure/Stack.c.obj
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/datastructure/Stack.c.obj
+.PHONY : datastructure/Stack.c.obj
 
-Stack/Stack.i: Stack/Stack.c.i
+datastructure/Stack.i: datastructure/Stack.c.i
 
-.PHONY : Stack/Stack.i
+.PHONY : datastructure/Stack.i
 
 # target to preprocess a source file
-Stack/Stack.c.i:
-	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/Stack/Stack.c.i
-	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/Stack/Stack.c.i
-	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/Stack/Stack.c.i
-	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Stack/Stack.c.i
-.PHONY : Stack/Stack.c.i
+datastructure/Stack.c.i:
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/datastructure/Stack.c.i
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/datastructure/Stack.c.i
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/datastructure/Stack.c.i
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/datastructure/Stack.c.i
+.PHONY : datastructure/Stack.c.i
 
-Stack/Stack.s: Stack/Stack.c.s
+datastructure/Stack.s: datastructure/Stack.c.s
 
-.PHONY : Stack/Stack.s
+.PHONY : datastructure/Stack.s
 
 # target to generate assembly for a file
-Stack/Stack.c.s:
-	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/Stack/Stack.c.s
-	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/Stack/Stack.c.s
-	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/Stack/Stack.c.s
-	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Stack/Stack.c.s
-.PHONY : Stack/Stack.c.s
+datastructure/Stack.c.s:
+	$(MAKE) -f CMakeFiles\01.Stack_getMin00.dir\build.make CMakeFiles/01.Stack_getMin00.dir/datastructure/Stack.c.s
+	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/datastructure/Stack.c.s
+	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/datastructure/Stack.c.s
+	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/datastructure/Stack.c.s
+.PHONY : datastructure/Stack.c.s
 
 # Help Target
 help:
@@ -329,9 +329,9 @@ help:
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.obj
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.i
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.s
-	@echo ... Stack/Stack.obj
-	@echo ... Stack/Stack.i
-	@echo ... Stack/Stack.s
+	@echo ... datastructure/Stack.obj
+	@echo ... datastructure/Stack.i
+	@echo ... datastructure/Stack.s
 .PHONY : help
 
 

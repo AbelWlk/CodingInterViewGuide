@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Stack/Stack.h"
+#include "datastructure/Stack.h"
 /*  
     题目：实现一个特殊的栈，在实现栈的基本功能的基础上，再返回栈中最小元素的操作
     要求：pop,push,getMin时间复杂度为O(1)

@@ -1,7 +1,7 @@
 // Created by wlk on 2019/6/23 22:22.
 
 #include <stdio.h>
-#include "Stack/Stack.h"
+#include "datastructure/Stack.h"
 
 /*仅用递归函数和栈基本操作来逆序一个栈*/
 

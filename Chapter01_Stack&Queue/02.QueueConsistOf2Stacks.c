@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Stack/Stack.h"
+#include "datastructure/Stack.h"
 
 /*
 题目：用2个栈实现队列，支持队列基本操作 

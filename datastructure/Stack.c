@@ -27,7 +27,7 @@ int Pop(Stack s) {
     PtrNode topNode;
     int data;
     if (IsEmpty(s) == 1) {
-        printf("Stack Is Empty!");
+        printf("datastructure Is Empty!");
         return -1;
     } else {
         topNode = s->Next;
@@ -40,7 +40,7 @@ int Pop(Stack s) {
 
 void foreachStack(Stack s) {
     if (IsEmpty(s) == 1) {
-        printf("Stack Is Empty!");
+        printf("datastructure Is Empty!");
         return;
     }
     PtrNode pCurrent = s->Next;

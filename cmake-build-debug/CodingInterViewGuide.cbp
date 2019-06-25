@@ -226,13 +226,13 @@
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&amp;Queue/03.ReverseStackOnlyByRecurion.c">
 			<Option target="03.ReverseStackOnlyByRecurion"/>
 		</Unit>
-		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Stack/Stack.c">
+		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/Stack.c">
 			<Option target="01.Stack_getMin00"/>
 			<Option target="01.Stack_getMin01"/>
 			<Option target="02.QueueConsistOf2Stacks"/>
 			<Option target="03.ReverseStackOnlyByRecurion"/>
 		</Unit>
-		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Stack/Stack.h">
+		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/Stack.h">
 			<Option target="01.Stack_getMin00"/>
 			<Option target="01.Stack_getMin01"/>
 			<Option target="02.QueueConsistOf2Stacks"/>

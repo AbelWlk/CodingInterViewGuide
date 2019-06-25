@@ -5,10 +5,10 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(${PROJECT_SOURCE_DIR})
 
-set(Stack_getMin00 Chapter01_Stack&Queue/01.Stack_getMin00.c Stack/Stack.c)
-set(Stack_getMin01 Chapter01_Stack&Queue/01.Stack_getMin01.c Stack/Stack.c)
-set(QueueConsistOf2Stacks Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c Stack/Stack.c)
-set(ReverseStackOnlyByRecurion Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c Stack/Stack.c)
+set(Stack_getMin00 Chapter01_Stack&Queue/01.Stack_getMin00.c datastructure/Stack.c)
+set(Stack_getMin01 Chapter01_Stack&Queue/01.Stack_getMin01.c datastructure/Stack.c)
+set(QueueConsistOf2Stacks Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c datastructure/Stack.c)
+set(ReverseStackOnlyByRecurion Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c datastructure/Stack.c)
 
 add_executable(01.Stack_getMin00 ${Stack_getMin00})
 add_executable(01.Stack_getMin01 ${Stack_getMin01})
