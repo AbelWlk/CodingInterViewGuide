@@ -3,4 +3,5 @@ F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/CMakeFiles/01.Stack_getMin00
 F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/CMakeFiles/01.Stack_getMin01.dir
 F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/CMakeFiles/02.QueueConsistOf2Stacks.dir
 F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/CMakeFiles/03.ReverseStackOnlyByRecurion.dir
+F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/CMakeFiles/05.SortStackByStack.dir
 F:/Git/Clion/CodingInterViewGuide/cmake-build-debug/CMakeFiles/edit_cache.dir

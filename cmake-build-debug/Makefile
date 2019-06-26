@@ -161,6 +161,19 @@ depend:
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/build
 .PHONY : 03.ReverseStackOnlyByRecurion/fast
 
+#=============================================================================
+# Target rules for targets named 05.SortStackByStack
+
+# Build rule for target.
+05.SortStackByStack: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 05.SortStackByStack
+.PHONY : 05.SortStackByStack
+
+# fast build rule for target.
+05.SortStackByStack/fast:
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/build
+.PHONY : 05.SortStackByStack/fast
+
 Chapter01_Stack&Queue/01.Stack_getMin00.obj: Chapter01_Stack&Queue/01.Stack_getMin00.c.obj
 
 .PHONY : Chapter01_Stack&Queue/01.Stack_getMin00.obj
@@ -269,6 +282,33 @@ Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s:
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s"
 .PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s
 
+Chapter01_Stack&Queue/05.SortStackByStack.obj: Chapter01_Stack&Queue/05.SortStackByStack.c.obj
+
+.PHONY : Chapter01_Stack&Queue/05.SortStackByStack.obj
+
+# target to build an object file
+Chapter01_Stack&Queue/05.SortStackByStack.c.obj:
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make "CMakeFiles/05.SortStackByStack.dir/Chapter01_Stack&Queue/05.SortStackByStack.c.obj"
+.PHONY : Chapter01_Stack&Queue/05.SortStackByStack.c.obj
+
+Chapter01_Stack&Queue/05.SortStackByStack.i: Chapter01_Stack&Queue/05.SortStackByStack.c.i
+
+.PHONY : Chapter01_Stack&Queue/05.SortStackByStack.i
+
+# target to preprocess a source file
+Chapter01_Stack&Queue/05.SortStackByStack.c.i:
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make "CMakeFiles/05.SortStackByStack.dir/Chapter01_Stack&Queue/05.SortStackByStack.c.i"
+.PHONY : Chapter01_Stack&Queue/05.SortStackByStack.c.i
+
+Chapter01_Stack&Queue/05.SortStackByStack.s: Chapter01_Stack&Queue/05.SortStackByStack.c.s
+
+.PHONY : Chapter01_Stack&Queue/05.SortStackByStack.s
+
+# target to generate assembly for a file
+Chapter01_Stack&Queue/05.SortStackByStack.c.s:
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make "CMakeFiles/05.SortStackByStack.dir/Chapter01_Stack&Queue/05.SortStackByStack.c.s"
+.PHONY : Chapter01_Stack&Queue/05.SortStackByStack.c.s
+
 datastructure/Stack.obj: datastructure/Stack.c.obj
 
 .PHONY : datastructure/Stack.obj
@@ -279,6 +319,7 @@ datastructure/Stack.c.obj:
 	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/datastructure/Stack.c.obj
 	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/datastructure/Stack.c.obj
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/datastructure/Stack.c.obj
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/datastructure/Stack.c.obj
 .PHONY : datastructure/Stack.c.obj
 
 datastructure/Stack.i: datastructure/Stack.c.i
@@ -291,6 +332,7 @@ datastructure/Stack.c.i:
 	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/datastructure/Stack.c.i
 	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/datastructure/Stack.c.i
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/datastructure/Stack.c.i
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/datastructure/Stack.c.i
 .PHONY : datastructure/Stack.c.i
 
 datastructure/Stack.s: datastructure/Stack.c.s
@@ -303,6 +345,7 @@ datastructure/Stack.c.s:
 	$(MAKE) -f CMakeFiles\01.Stack_getMin01.dir\build.make CMakeFiles/01.Stack_getMin01.dir/datastructure/Stack.c.s
 	$(MAKE) -f CMakeFiles\02.QueueConsistOf2Stacks.dir\build.make CMakeFiles/02.QueueConsistOf2Stacks.dir/datastructure/Stack.c.s
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/datastructure/Stack.c.s
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/datastructure/Stack.c.s
 .PHONY : datastructure/Stack.c.s
 
 # Help Target
@@ -316,6 +359,7 @@ help:
 	@echo ... 01.Stack_getMin01
 	@echo ... 02.QueueConsistOf2Stacks
 	@echo ... 03.ReverseStackOnlyByRecurion
+	@echo ... 05.SortStackByStack
 	@echo ... edit_cache
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.obj
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.i
@@ -329,6 +373,9 @@ help:
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.obj
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.i
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.s
+	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.obj
+	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.i
+	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.s
 	@echo ... datastructure/Stack.obj
 	@echo ... datastructure/Stack.i
 	@echo ... datastructure/Stack.s

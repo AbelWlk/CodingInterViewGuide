@@ -212,6 +212,43 @@ clean: CMakeFiles/03.ReverseStackOnlyByRecurion.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/05.SortStackByStack.dir
+
+# All Build rule for target.
+CMakeFiles/05.SortStackByStack.dir/all:
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/depend
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=F:\Git\Clion\CodingInterViewGuide\cmake-build-debug\CMakeFiles --progress-num=13,14,15 "Built target 05.SortStackByStack"
+.PHONY : CMakeFiles/05.SortStackByStack.dir/all
+
+# Include target in all.
+all: CMakeFiles/05.SortStackByStack.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/05.SortStackByStack.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Git\Clion\CodingInterViewGuide\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/05.SortStackByStack.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\Git\Clion\CodingInterViewGuide\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/05.SortStackByStack.dir/rule
+
+# Convenience name for target.
+05.SortStackByStack: CMakeFiles/05.SortStackByStack.dir/rule
+
+.PHONY : 05.SortStackByStack
+
+# clean rule for target.
+CMakeFiles/05.SortStackByStack.dir/clean:
+	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make CMakeFiles/05.SortStackByStack.dir/clean
+.PHONY : CMakeFiles/05.SortStackByStack.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/05.SortStackByStack.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

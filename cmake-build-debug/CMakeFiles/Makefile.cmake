@@ -57,4 +57,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/01.Stack_getMin01.dir/DependInfo.cmake"
   "CMakeFiles/02.QueueConsistOf2Stacks.dir/DependInfo.cmake"
   "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/DependInfo.cmake"
+  "CMakeFiles/05.SortStackByStack.dir/DependInfo.cmake"
   )
