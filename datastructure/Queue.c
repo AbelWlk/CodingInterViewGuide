@@ -1,5 +1,6 @@
 // Created by wlk on 2019/6/25 22:39.
 #include <stdio.h>
+#include <stdlib.h>
 #include "Queue.h"
 
 Queue Init() {
@@ -16,6 +17,7 @@ int IsEmpty(Queue q) {
 void AddQ(Queue q, int data) {
     PtrNode tmpNode = (PtrNode) malloc(sizeof(struct Node));
     tmpNode->Data = data;
+    tmpNode->Next = NULL;
     if (IsEmpty(q) == 1) {
         q->Front = tmpNode;
         q->Rear = tmpNode;
@@ -26,6 +28,7 @@ void AddQ(Queue q, int data) {
 }
 
 int DeleteQ(Queue q) {
+
     PtrNode topNode;
     int data;
 
@@ -44,4 +47,17 @@ int DeleteQ(Queue q) {
         free(topNode);
         return data;
     }
+}
+
+void foreachQueue(Queue q) {
+    if (IsEmpty(q) == 1) {
+        printf("Queue Is Empty!");
+        return;
+    }
+    PtrNode pCurrent = q->Front;
+    while (pCurrent) {
+        printf("%d ", pCurrent->Data);
+        pCurrent = pCurrent->Next;
+    }
+    printf("\n");
 }

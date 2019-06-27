@@ -123,6 +123,19 @@ depend:
 .PHONY : 01.Stack_getMin00/fast
 
 #=============================================================================
+# Target rules for targets named 04.DogCatQueue
+
+# Build rule for target.
+04.DogCatQueue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 04.DogCatQueue
+.PHONY : 04.DogCatQueue
+
+# fast build rule for target.
+04.DogCatQueue/fast:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/build
+.PHONY : 04.DogCatQueue/fast
+
+#=============================================================================
 # Target rules for targets named 01.Stack_getMin01
 
 # Build rule for target.
@@ -282,6 +295,33 @@ Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s:
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make "CMakeFiles/03.ReverseStackOnlyByRecurion.dir/Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s"
 .PHONY : Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c.s
 
+Chapter01_Stack&Queue/04.DogCatQueue.obj: Chapter01_Stack&Queue/04.DogCatQueue.c.obj
+
+.PHONY : Chapter01_Stack&Queue/04.DogCatQueue.obj
+
+# target to build an object file
+Chapter01_Stack&Queue/04.DogCatQueue.c.obj:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make "CMakeFiles/04.DogCatQueue.dir/Chapter01_Stack&Queue/04.DogCatQueue.c.obj"
+.PHONY : Chapter01_Stack&Queue/04.DogCatQueue.c.obj
+
+Chapter01_Stack&Queue/04.DogCatQueue.i: Chapter01_Stack&Queue/04.DogCatQueue.c.i
+
+.PHONY : Chapter01_Stack&Queue/04.DogCatQueue.i
+
+# target to preprocess a source file
+Chapter01_Stack&Queue/04.DogCatQueue.c.i:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make "CMakeFiles/04.DogCatQueue.dir/Chapter01_Stack&Queue/04.DogCatQueue.c.i"
+.PHONY : Chapter01_Stack&Queue/04.DogCatQueue.c.i
+
+Chapter01_Stack&Queue/04.DogCatQueue.s: Chapter01_Stack&Queue/04.DogCatQueue.c.s
+
+.PHONY : Chapter01_Stack&Queue/04.DogCatQueue.s
+
+# target to generate assembly for a file
+Chapter01_Stack&Queue/04.DogCatQueue.c.s:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make "CMakeFiles/04.DogCatQueue.dir/Chapter01_Stack&Queue/04.DogCatQueue.c.s"
+.PHONY : Chapter01_Stack&Queue/04.DogCatQueue.c.s
+
 Chapter01_Stack&Queue/05.SortStackByStack.obj: Chapter01_Stack&Queue/05.SortStackByStack.c.obj
 
 .PHONY : Chapter01_Stack&Queue/05.SortStackByStack.obj
@@ -308,6 +348,33 @@ Chapter01_Stack&Queue/05.SortStackByStack.s: Chapter01_Stack&Queue/05.SortStackB
 Chapter01_Stack&Queue/05.SortStackByStack.c.s:
 	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make "CMakeFiles/05.SortStackByStack.dir/Chapter01_Stack&Queue/05.SortStackByStack.c.s"
 .PHONY : Chapter01_Stack&Queue/05.SortStackByStack.c.s
+
+datastructure/Queue.obj: datastructure/Queue.c.obj
+
+.PHONY : datastructure/Queue.obj
+
+# target to build an object file
+datastructure/Queue.c.obj:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/Queue.c.obj
+.PHONY : datastructure/Queue.c.obj
+
+datastructure/Queue.i: datastructure/Queue.c.i
+
+.PHONY : datastructure/Queue.i
+
+# target to preprocess a source file
+datastructure/Queue.c.i:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/Queue.c.i
+.PHONY : datastructure/Queue.c.i
+
+datastructure/Queue.s: datastructure/Queue.c.s
+
+.PHONY : datastructure/Queue.s
+
+# target to generate assembly for a file
+datastructure/Queue.c.s:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/Queue.c.s
+.PHONY : datastructure/Queue.c.s
 
 datastructure/Stack.obj: datastructure/Stack.c.obj
 
@@ -356,6 +423,7 @@ help:
 	@echo ... depend
 	@echo ... rebuild_cache
 	@echo ... 01.Stack_getMin00
+	@echo ... 04.DogCatQueue
 	@echo ... 01.Stack_getMin01
 	@echo ... 02.QueueConsistOf2Stacks
 	@echo ... 03.ReverseStackOnlyByRecurion
@@ -373,9 +441,15 @@ help:
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.obj
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.i
 	@echo ... Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.s
+	@echo ... Chapter01_Stack&Queue/04.DogCatQueue.obj
+	@echo ... Chapter01_Stack&Queue/04.DogCatQueue.i
+	@echo ... Chapter01_Stack&Queue/04.DogCatQueue.s
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.obj
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.i
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.s
+	@echo ... datastructure/Queue.obj
+	@echo ... datastructure/Queue.i
+	@echo ... datastructure/Queue.s
 	@echo ... datastructure/Stack.obj
 	@echo ... datastructure/Stack.i
 	@echo ... datastructure/Stack.s

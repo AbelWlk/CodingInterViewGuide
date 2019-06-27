@@ -1,8 +1,7 @@
 // Created by wlk on 2019/6/25 22:39.
-#ifndef CODINGINTERVIEWGUIDE_QUEUE_H
-#define CODINGINTERVIEWGUIDE_QUEUE_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct Node *PtrNode;
 struct Node {
@@ -23,4 +22,4 @@ void AddQ(Queue q, int data);
 
 int DeleteQ(Queue q);
 
-#endif //CODINGINTERVIEWGUIDE_QUEUE_H
+void foreachQueue(Queue q);

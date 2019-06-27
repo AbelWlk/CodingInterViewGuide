@@ -6,13 +6,14 @@
 
 void sortStackByStack(Stack *s) {
     Stack help = Init();
-    while (IsEmpty(*s) == 0) {
+    while (IsEmpty(*s) != 1) {
         int cur = Pop(*s);
-        while (IsEmpty(help) == 0 && (help->Next)->Data > cur) {
+        while (IsEmpty(help) != 1 && (help->Next)->Data < cur) {
             Push(*s, Pop(help));
         }
+        Push(help, cur);
     }
-    while (IsEmpty(help) == 0) {
+    while (IsEmpty(help) != 1) {
         Push(*s, Pop(help));
     }
 }
@@ -25,6 +26,7 @@ int main() {
     Push(s, 1);
     Push(s, 3);
     Push(s, 2);
+    foreachStack(s);
 
     sortStackByStack(&s);
 
