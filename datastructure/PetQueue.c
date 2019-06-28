@@ -2,7 +2,7 @@
 
 #include "PetQueue.h"
 
-PetQueue Init() {
+PetQueue Init() {//初始化
     Queue dog = (Queue) malloc(sizeof(struct QNode));
     dog->Rear = dog->Front = NULL;
     Queue cat = (Queue) malloc(sizeof(struct QNode));
@@ -33,10 +33,10 @@ void AddQ(PetQueue petQueue, PetNode petNode) {
     petNode->Count = Count++;
     Queue dog = petQueue->Dog;
     Queue cat = petQueue->Cat;
-    if (strcmp("dog", petNode->Type) == 0) {
-        if (IsEmpty(dog) == 1) {
+    if (strcmp("dog", petNode->Type) == 0) { //判断新节点类型，按类别存储
+        if (IsEmpty(dog) == 1) {//队列为空
             dog->Front = dog->Rear = petNode;
-        } else {
+        } else {//队列不为空
             dog->Rear->Next = petNode;
             dog->Rear = petNode;
         }
@@ -76,13 +76,13 @@ char *Poll(Queue q) {
 char *PollAll(PetQueue petQueue) {
     Queue dog = petQueue->Dog;
     Queue cat = petQueue->Cat;
-    if (IsEmpty(dog) != 1 && IsEmpty(cat) != 1) {
-        if (dog->Front->Count < cat->Front->Count) {
+    if (IsEmpty(dog) != 1 && IsEmpty(cat) != 1) {//猫狗都不为空时
+        if (dog->Front->Count < cat->Front->Count) {//比较时间戳，越小说明进入越早，需要优先弹出
             return Poll(dog);
         } else {
             return Poll(cat);
         }
-    } else if (IsEmpty(dog) != 1) {
+    } else if (IsEmpty(dog) != 1) {//当不满足都不为空条件时，判断不为空的队列并弹出
         return Poll(dog);
     } else if (IsEmpty(cat) != 1) {
         return Poll(cat);
