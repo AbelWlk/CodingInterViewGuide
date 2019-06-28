@@ -349,32 +349,32 @@ Chapter01_Stack&Queue/05.SortStackByStack.c.s:
 	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make "CMakeFiles/05.SortStackByStack.dir/Chapter01_Stack&Queue/05.SortStackByStack.c.s"
 .PHONY : Chapter01_Stack&Queue/05.SortStackByStack.c.s
 
-datastructure/Queue.obj: datastructure/Queue.c.obj
+datastructure/PetQueue.obj: datastructure/PetQueue.c.obj
 
-.PHONY : datastructure/Queue.obj
+.PHONY : datastructure/PetQueue.obj
 
 # target to build an object file
-datastructure/Queue.c.obj:
-	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/Queue.c.obj
-.PHONY : datastructure/Queue.c.obj
+datastructure/PetQueue.c.obj:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/PetQueue.c.obj
+.PHONY : datastructure/PetQueue.c.obj
 
-datastructure/Queue.i: datastructure/Queue.c.i
+datastructure/PetQueue.i: datastructure/PetQueue.c.i
 
-.PHONY : datastructure/Queue.i
+.PHONY : datastructure/PetQueue.i
 
 # target to preprocess a source file
-datastructure/Queue.c.i:
-	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/Queue.c.i
-.PHONY : datastructure/Queue.c.i
+datastructure/PetQueue.c.i:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/PetQueue.c.i
+.PHONY : datastructure/PetQueue.c.i
 
-datastructure/Queue.s: datastructure/Queue.c.s
+datastructure/PetQueue.s: datastructure/PetQueue.c.s
 
-.PHONY : datastructure/Queue.s
+.PHONY : datastructure/PetQueue.s
 
 # target to generate assembly for a file
-datastructure/Queue.c.s:
-	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/Queue.c.s
-.PHONY : datastructure/Queue.c.s
+datastructure/PetQueue.c.s:
+	$(MAKE) -f CMakeFiles\04.DogCatQueue.dir\build.make CMakeFiles/04.DogCatQueue.dir/datastructure/PetQueue.c.s
+.PHONY : datastructure/PetQueue.c.s
 
 datastructure/Stack.obj: datastructure/Stack.c.obj
 
@@ -447,9 +447,9 @@ help:
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.obj
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.i
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.s
-	@echo ... datastructure/Queue.obj
-	@echo ... datastructure/Queue.i
-	@echo ... datastructure/Queue.s
+	@echo ... datastructure/PetQueue.obj
+	@echo ... datastructure/PetQueue.i
+	@echo ... datastructure/PetQueue.s
 	@echo ... datastructure/Stack.obj
 	@echo ... datastructure/Stack.i
 	@echo ... datastructure/Stack.s

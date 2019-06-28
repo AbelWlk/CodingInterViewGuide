@@ -320,10 +320,10 @@
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/Chapter01_Stack&amp;Queue/05.SortStackByStack.c">
 			<Option target="05.SortStackByStack"/>
 		</Unit>
-		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/Queue.c">
+		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/PetQueue.c">
 			<Option target="04.DogCatQueue"/>
 		</Unit>
-		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/Queue.h">
+		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/PetQueue.h">
 			<Option target="04.DogCatQueue"/>
 		</Unit>
 		<Unit filename="F:/Git/Clion/CodingInterViewGuide/datastructure/Stack.c">

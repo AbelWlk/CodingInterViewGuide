@@ -10,7 +10,7 @@ set(Stack_getMin01 Chapter01_Stack&Queue/01.Stack_getMin01.c datastructure/Stack
 set(QueueConsistOf2Stacks Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c datastructure/Stack.c)
 set(ReverseStackOnlyByRecurion Chapter01_Stack&Queue/03.ReverseStackOnlyByRecurion.c datastructure/Stack.c)
 set(SortStackByStack Chapter01_Stack&Queue/05.SortStackByStack.c datastructure/Stack.c)
-set(DogCatQueue Chapter01_Stack&Queue/04.DogCatQueue.c datastructure/Queue.c)
+set(DogCatQueue Chapter01_Stack&Queue/04.DogCatQueue.c datastructure/PetQueue.c)
 
 add_executable(01.Stack_getMin00 ${Stack_getMin00})
 add_executable(01.Stack_getMin01 ${Stack_getMin01})
