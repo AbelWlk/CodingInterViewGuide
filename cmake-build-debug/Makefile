@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 06.GetMaxWindow
+
+# Build rule for target.
+06.GetMaxWindow: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 06.GetMaxWindow
+.PHONY : 06.GetMaxWindow
+
+# fast build rule for target.
+06.GetMaxWindow/fast:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/build
+.PHONY : 06.GetMaxWindow/fast
+
+#=============================================================================
 # Target rules for targets named 01.Stack_getMin00
 
 # Build rule for target.
@@ -349,6 +362,60 @@ Chapter01_Stack&Queue/05.SortStackByStack.c.s:
 	$(MAKE) -f CMakeFiles\05.SortStackByStack.dir\build.make "CMakeFiles/05.SortStackByStack.dir/Chapter01_Stack&Queue/05.SortStackByStack.c.s"
 .PHONY : Chapter01_Stack&Queue/05.SortStackByStack.c.s
 
+Chapter01_Stack&Queue/06.GetMaxWindow.obj: Chapter01_Stack&Queue/06.GetMaxWindow.c.obj
+
+.PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.obj
+
+# target to build an object file
+Chapter01_Stack&Queue/06.GetMaxWindow.c.obj:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make "CMakeFiles/06.GetMaxWindow.dir/Chapter01_Stack&Queue/06.GetMaxWindow.c.obj"
+.PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.c.obj
+
+Chapter01_Stack&Queue/06.GetMaxWindow.i: Chapter01_Stack&Queue/06.GetMaxWindow.c.i
+
+.PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.i
+
+# target to preprocess a source file
+Chapter01_Stack&Queue/06.GetMaxWindow.c.i:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make "CMakeFiles/06.GetMaxWindow.dir/Chapter01_Stack&Queue/06.GetMaxWindow.c.i"
+.PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.c.i
+
+Chapter01_Stack&Queue/06.GetMaxWindow.s: Chapter01_Stack&Queue/06.GetMaxWindow.c.s
+
+.PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.s
+
+# target to generate assembly for a file
+Chapter01_Stack&Queue/06.GetMaxWindow.c.s:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make "CMakeFiles/06.GetMaxWindow.dir/Chapter01_Stack&Queue/06.GetMaxWindow.c.s"
+.PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.c.s
+
+datastructure/LinkedList.obj: datastructure/LinkedList.c.obj
+
+.PHONY : datastructure/LinkedList.obj
+
+# target to build an object file
+datastructure/LinkedList.c.obj:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/datastructure/LinkedList.c.obj
+.PHONY : datastructure/LinkedList.c.obj
+
+datastructure/LinkedList.i: datastructure/LinkedList.c.i
+
+.PHONY : datastructure/LinkedList.i
+
+# target to preprocess a source file
+datastructure/LinkedList.c.i:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/datastructure/LinkedList.c.i
+.PHONY : datastructure/LinkedList.c.i
+
+datastructure/LinkedList.s: datastructure/LinkedList.c.s
+
+.PHONY : datastructure/LinkedList.s
+
+# target to generate assembly for a file
+datastructure/LinkedList.c.s:
+	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/datastructure/LinkedList.c.s
+.PHONY : datastructure/LinkedList.c.s
+
 datastructure/PetQueue.obj: datastructure/PetQueue.c.obj
 
 .PHONY : datastructure/PetQueue.obj
@@ -422,6 +489,7 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... rebuild_cache
+	@echo ... 06.GetMaxWindow
 	@echo ... 01.Stack_getMin00
 	@echo ... 04.DogCatQueue
 	@echo ... 01.Stack_getMin01
@@ -447,6 +515,12 @@ help:
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.obj
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.i
 	@echo ... Chapter01_Stack&Queue/05.SortStackByStack.s
+	@echo ... Chapter01_Stack&Queue/06.GetMaxWindow.obj
+	@echo ... Chapter01_Stack&Queue/06.GetMaxWindow.i
+	@echo ... Chapter01_Stack&Queue/06.GetMaxWindow.s
+	@echo ... datastructure/LinkedList.obj
+	@echo ... datastructure/LinkedList.i
+	@echo ... datastructure/LinkedList.s
 	@echo ... datastructure/PetQueue.obj
 	@echo ... datastructure/PetQueue.i
 	@echo ... datastructure/PetQueue.s

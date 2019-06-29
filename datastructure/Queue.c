@@ -34,7 +34,7 @@ int DeleteQ(Queue q) {
 
     if (IsEmpty(q) == 1) {
         printf("Queue Is Empty!");
-        return 1;
+        return -1;
     } else {
         topNode = q->Front;
         if (q->Front == q->Rear) //如果队列只有一个元素

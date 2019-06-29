@@ -12,3 +12,5 @@
 ​	[04：猫狗队列](Chapter01_Stack&Queue/04.DogCatQueue.c)
 
 ​	[05：用一个栈实现另一个栈的排序](Chapter01_Stack&Queue/05.SortStackByStack.c)
+
+​	[06：生成窗口最大数值](Chapter01_Stack&Queue/06.GetMaxWindow.c)
