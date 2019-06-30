@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(${PROJECT_SOURCE_DIR})
 
+#----------Chapet01----------
 set(Stack_getMin00 Chapter01_Stack&Queue/01.Stack_getMin00.c datastructure/Stack.c)
 set(Stack_getMin01 Chapter01_Stack&Queue/01.Stack_getMin01.c datastructure/Stack.c)
 set(QueueConsistOf2Stacks Chapter01_Stack&Queue/02.QueueConsistOf2Stacks.c datastructure/Stack.c)
@@ -20,3 +21,8 @@ add_executable(03.ReverseStackOnlyByRecurion ${ReverseStackOnlyByRecurion})
 add_executable(04.DogCatQueue ${DogCatQueue})
 add_executable(05.SortStackByStack ${SortStackByStack})
 add_executable(06.GetMaxWindow ${GetMaxWindow})
+
+#----------Chapet02----------
+set(PrintCommonPart Chapter02_LinkedList/01.PrintCommonPart.c datastructure/LinkedList.c)
+
+add_executable(01.PrintCommonPart ${PrintCommonPart})

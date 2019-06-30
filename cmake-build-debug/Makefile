@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = F:\Git\Clion\CodingInterViewGuide\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -186,6 +186,19 @@ depend:
 03.ReverseStackOnlyByRecurion/fast:
 	$(MAKE) -f CMakeFiles\03.ReverseStackOnlyByRecurion.dir\build.make CMakeFiles/03.ReverseStackOnlyByRecurion.dir/build
 .PHONY : 03.ReverseStackOnlyByRecurion/fast
+
+#=============================================================================
+# Target rules for targets named 01.PrintCommonPart
+
+# Build rule for target.
+01.PrintCommonPart: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 01.PrintCommonPart
+.PHONY : 01.PrintCommonPart
+
+# fast build rule for target.
+01.PrintCommonPart/fast:
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/build
+.PHONY : 01.PrintCommonPart/fast
 
 #=============================================================================
 # Target rules for targets named 05.SortStackByStack
@@ -389,6 +402,33 @@ Chapter01_Stack&Queue/06.GetMaxWindow.c.s:
 	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make "CMakeFiles/06.GetMaxWindow.dir/Chapter01_Stack&Queue/06.GetMaxWindow.c.s"
 .PHONY : Chapter01_Stack&Queue/06.GetMaxWindow.c.s
 
+Chapter02_LinkedList/01.PrintCommonPart.obj: Chapter02_LinkedList/01.PrintCommonPart.c.obj
+
+.PHONY : Chapter02_LinkedList/01.PrintCommonPart.obj
+
+# target to build an object file
+Chapter02_LinkedList/01.PrintCommonPart.c.obj:
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/Chapter02_LinkedList/01.PrintCommonPart.c.obj
+.PHONY : Chapter02_LinkedList/01.PrintCommonPart.c.obj
+
+Chapter02_LinkedList/01.PrintCommonPart.i: Chapter02_LinkedList/01.PrintCommonPart.c.i
+
+.PHONY : Chapter02_LinkedList/01.PrintCommonPart.i
+
+# target to preprocess a source file
+Chapter02_LinkedList/01.PrintCommonPart.c.i:
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/Chapter02_LinkedList/01.PrintCommonPart.c.i
+.PHONY : Chapter02_LinkedList/01.PrintCommonPart.c.i
+
+Chapter02_LinkedList/01.PrintCommonPart.s: Chapter02_LinkedList/01.PrintCommonPart.c.s
+
+.PHONY : Chapter02_LinkedList/01.PrintCommonPart.s
+
+# target to generate assembly for a file
+Chapter02_LinkedList/01.PrintCommonPart.c.s:
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/Chapter02_LinkedList/01.PrintCommonPart.c.s
+.PHONY : Chapter02_LinkedList/01.PrintCommonPart.c.s
+
 datastructure/LinkedList.obj: datastructure/LinkedList.c.obj
 
 .PHONY : datastructure/LinkedList.obj
@@ -396,6 +436,7 @@ datastructure/LinkedList.obj: datastructure/LinkedList.c.obj
 # target to build an object file
 datastructure/LinkedList.c.obj:
 	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/datastructure/LinkedList.c.obj
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/datastructure/LinkedList.c.obj
 .PHONY : datastructure/LinkedList.c.obj
 
 datastructure/LinkedList.i: datastructure/LinkedList.c.i
@@ -405,6 +446,7 @@ datastructure/LinkedList.i: datastructure/LinkedList.c.i
 # target to preprocess a source file
 datastructure/LinkedList.c.i:
 	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/datastructure/LinkedList.c.i
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/datastructure/LinkedList.c.i
 .PHONY : datastructure/LinkedList.c.i
 
 datastructure/LinkedList.s: datastructure/LinkedList.c.s
@@ -414,6 +456,7 @@ datastructure/LinkedList.s: datastructure/LinkedList.c.s
 # target to generate assembly for a file
 datastructure/LinkedList.c.s:
 	$(MAKE) -f CMakeFiles\06.GetMaxWindow.dir\build.make CMakeFiles/06.GetMaxWindow.dir/datastructure/LinkedList.c.s
+	$(MAKE) -f CMakeFiles\01.PrintCommonPart.dir\build.make CMakeFiles/01.PrintCommonPart.dir/datastructure/LinkedList.c.s
 .PHONY : datastructure/LinkedList.c.s
 
 datastructure/PetQueue.obj: datastructure/PetQueue.c.obj
@@ -488,15 +531,16 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
 	@echo ... 06.GetMaxWindow
 	@echo ... 01.Stack_getMin00
 	@echo ... 04.DogCatQueue
 	@echo ... 01.Stack_getMin01
 	@echo ... 02.QueueConsistOf2Stacks
 	@echo ... 03.ReverseStackOnlyByRecurion
+	@echo ... 01.PrintCommonPart
 	@echo ... 05.SortStackByStack
 	@echo ... edit_cache
+	@echo ... rebuild_cache
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.obj
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.i
 	@echo ... Chapter01_Stack&Queue/01.Stack_getMin00.s
@@ -518,6 +562,9 @@ help:
 	@echo ... Chapter01_Stack&Queue/06.GetMaxWindow.obj
 	@echo ... Chapter01_Stack&Queue/06.GetMaxWindow.i
 	@echo ... Chapter01_Stack&Queue/06.GetMaxWindow.s
+	@echo ... Chapter02_LinkedList/01.PrintCommonPart.obj
+	@echo ... Chapter02_LinkedList/01.PrintCommonPart.i
+	@echo ... Chapter02_LinkedList/01.PrintCommonPart.s
 	@echo ... datastructure/LinkedList.obj
 	@echo ... datastructure/LinkedList.i
 	@echo ... datastructure/LinkedList.s
